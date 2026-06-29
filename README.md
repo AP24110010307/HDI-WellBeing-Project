@@ -28,9 +28,9 @@ The project is developed using **Python, Scikit-learn, Pandas, NumPy, and Flask*
 
 ---
 
-# Project Structure
+## Project Structure
 
-
+```text
 APSCHE_Project/
 │
 ├── dataset/
@@ -43,11 +43,17 @@ APSCHE_Project/
 │   ├── app.py
 │   ├── HDI.pkl
 │   ├── templates/
+│   │   ├── index.html
+│   │   └── result.html
 │   └── static/
+│       ├── style.css
+│       ├── script.js
+│       └── images/
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 
 ---
