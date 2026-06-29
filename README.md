@@ -25,38 +25,7 @@ The project is developed using **Python, Scikit-learn, Pandas, NumPy, and Flask*
 * HTML
 * CSS
 * JavaScript
-
----
-
-## Project Structure
-
-```text
-APSCHE_Project/
-│
-├── dataset/
-│   └── HDI.csv
-│
-├── training/
-│   └── HumanDevIndex.ipynb
-│
-├── flask/
-│   ├── app.py
-│   ├── HDI.pkl
-│   ├── templates/
-│   │   ├── index.html
-│   │   └── result.html
-│   └── static/
-│       ├── style.css
-│       ├── script.js
-│       └── images/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-
----
+* 
 
 # Installation & Running the Project
 
@@ -110,16 +79,6 @@ If Python is installed as `python3`, run:
 
 
 python3 app.py
-
-
----
-
-# Open the Application
-
-Open your browser and visit:
-
-
-http://127.0.0.1:5000
 
 
 ---
