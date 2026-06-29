@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="result-page">
+
+<div class="background-circle circle1"></div>
+<div class="background-circle circle2"></div>
+
+<div class="container">
+
+    <div class="result-card">
+
+        <h1 class="result-title">
+            🌍 Human Development Index Prediction
+        </h1>
+
+        <p style="color:#6b7280;font-size:18px;margin-bottom:20px;">
+            Machine Learning Prediction Result
+        </p>
+
+        <div class="result-score">
+
+            {{ hdi_score }}
+
+        </div>
+
+        <div class="result-category">
+
+            {{ category }}
+
+        </div>
+
+        <div class="result-message">
+
+            {% if category == "Very High Human Development" %}
+
+                <p>✅ Excellent Healthcare System</p>
+                <p>✅ Excellent Education Level</p>
+                <p>✅ High Gross National Income</p>
+                <p>✅ Outstanding Quality of Life</p>
+                <p>🌍 This country belongs to the world's most developed nations.</p>
+
+            {% elif category == "High Human Development" %}
+
+                <p>✅ Strong Healthcare System</p>
+                <p>✅ Good Education Standards</p>
+                <p>✅ Stable Economy</p>
+                <p>📈 The country has a high level of human development with opportunities for further improvement.</p>
+
+            {% elif category == "Medium Human Development" %}
+
+                <p>⚠️ Developing Healthcare</p>
+                <p>⚠️ Improving Education System</p>
+                <p>⚠️ Moderate National Income</p>
+                <p>📊 Continued investment in education and healthcare can improve HDI.</p>
+
+            {% else %}
+
+                <p>❌ Healthcare Needs Improvement</p>
+                <p>❌ Education Needs Improvement</p>
+                <p>❌ Low Income Level</p>
+                <p>📉 Significant policy intervention is required to improve human development.</p>
+
+            {% endif %}
+
+        </div>
+
+        <a href="/" class="back-btn">
+
+            🔄 Predict Again
+
+        </a>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
