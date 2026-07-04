@@ -13,7 +13,18 @@ def home():
 
 @app.route("/predict", methods=["POST"])
 def predict():
+    
+    # 1. Read user input
+    # 2. Convert values into floating-point numbers
+    # 3. Create a DataFrame
+    # 4. Load the trained model
+    # 5. Predict HDI
+    # 6. Determine HDI category
+    # 7. Display the prediction result
 
+
+    print(request.form)
+    print("Predict route called")
     # Read values entered by the user
     life_expectancy = float(request.form["life_expectancy"])
     expected_schooling = float(request.form["expected_schooling"])

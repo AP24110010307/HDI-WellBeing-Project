@@ -25,7 +25,32 @@ The project is developed using **Python, Scikit-learn, Pandas, NumPy, and Flask*
 * HTML
 * CSS
 * JavaScript
-* 
+
+---
+
+# Project Structure
+
+
+APSCHE_Project/
+│
+├── dataset/
+│   └── HDI.csv
+│
+├── training/
+│   └── HumanDevIndex.ipynb
+│
+├── flask/
+│   ├── app.py
+│   ├── HDI.pkl
+│   ├── templates/
+│   └── static/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+---
 
 # Installation & Running the Project
 
@@ -55,12 +80,15 @@ cd flask
 
 ### Step 5: Run the Flask Application
 
+
 python app.py
 
 
 If `python` doesn't work, use:
 
+
 python3 app.py
+
 
 ---
 
@@ -79,6 +107,16 @@ If Python is installed as `python3`, run:
 
 
 python3 app.py
+
+
+---
+
+# Open the Application
+
+Open your browser and visit:
+
+
+http://127.0.0.1:5000
 
 
 ---
