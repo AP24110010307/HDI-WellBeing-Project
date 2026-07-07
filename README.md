@@ -262,22 +262,6 @@ Classify Development Category
 Display Result
 ```
 
----
-
-## 📸 Screenshots
-
-### Home Page
-
-
-
----
-
-### Result Page
-
-
-
----
-
 ## 📈 Future Enhancements
 
 - Deploy the application on cloud platforms.
