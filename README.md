@@ -128,40 +128,71 @@ APSCHE_Project/
 - Git (Optional)
 
 ---
+# 🚀 Installation & Running the Project
 
-## 📥 Installation
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-### Step 2: Navigate to the Project Directory
+## Step 1: Clone the Repository
 
 ```bash
-cd APSCHE_Project
+git clone https://github.com/AP24110010307/HDI-WellBeing-Project.git
 ```
 
-### Step 3: Install Required Dependencies
+---
+
+## Step 2: Navigate to the Repository
+
+```bash
+cd HDI-WellBeing-Project
+```
+
+---
+
+## Step 3: Navigate to the Project Code Folder
+
+### Windows
+
+```bash
+cd "5. Project Development Phase\project code files"
+```
+
+### Linux / macOS
+
+```bash
+cd "5. Project Development Phase/project code files"
+```
+
+---
+
+## Step 4: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Navigate to Flask Folder
+---
+
+## Step 5: Navigate to the Flask Folder
+
+### Windows
 
 ```bash
 cd flask
 ```
 
-### Step 5: Run the Application
+### Linux / macOS
+
+```bash
+cd flask
+```
+
+---
+
+## Step 6: Run the Application
 
 ```bash
 python app.py
 ```
 
-or
+If Python is installed as `python3`:
 
 ```bash
 python3 app.py
@@ -169,13 +200,15 @@ python3 app.py
 
 ---
 
-## 🌐 Run the Application
+## Step 7: Open the Application
 
 Open your browser and visit:
 
 ```
 http://127.0.0.1:5000
 ```
+
+The **HDI Prediction System** will start successfully.
 
 ---
 
@@ -235,13 +268,13 @@ Display Result
 
 ### Home Page
 
-*(Add screenshot of index.html here)*
+
 
 ---
 
 ### Result Page
 
-*(Add screenshot of result.html here)*
+
 
 ---
 
@@ -261,7 +294,6 @@ Display Result
 - Praveen Ram
 - Chaithu
 - Varshit
-- Chinmayee Poluru
 
 ---
 
