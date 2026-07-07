@@ -276,7 +276,7 @@ Display Result
 
 - Santhosh Masupalli
 - Praveen Ram
-- Chaithu
+- jagadeesh
 - Varshit
 
 ---
